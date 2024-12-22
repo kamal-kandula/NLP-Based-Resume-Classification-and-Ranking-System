@@ -73,8 +73,8 @@ The system is divided into two main components:
 ## Usage
 
 ### 1. Data Preparation
-**Resumes:** Place all resume files (PDF and DOCX) in the data/resumes/ directory.
-**Job Descriptions:** Place all job description text files in the data/job_descriptions/ directory.
+- **Resumes:** Place all resume files (PDF and DOCX) in the data/resumes/ directory.
+- **Job Descriptions:** Place all job description text files in the data/job_descriptions/ directory.
 
 ### 2. Preprocess Data
 Execute the preprocessing script to clean the data and extract features.
@@ -107,11 +107,11 @@ python src/ranking.py
 - Save the ranking results to results/ranking_scores.csv.
 
 ### 5. View Results
-**Classification Reports:** Located in the results/ directory as .txt files.
-**Ranking Scores:** Located in results/ranking_scores.csv.
+- **Classification Reports:** Located in the results/ directory as .txt files.
+- **Ranking Scores:** Located in results/ranking_scores.csv.
 
-**README.md:** Project documentation.
-**requirements.txt:** List of Python dependencies.
+- **README.md:** Project documentation.
+- **requirements.txt:** List of Python dependencies.
 
 ---
 
