@@ -116,9 +116,9 @@ requirements.txt: List of Python dependencies.
 ---
 
 ## Future Work
-Deep Learning Models: Incorporate models like BERT for improved text understanding and classification.
-Real-Time Processing: Develop a web application interface for real-time resume processing and ranking.
-Feedback Loop: Implement mechanisms to refine rankings based on recruiter feedback and preferences.
-Enhanced Feature Engineering: Explore additional NLP techniques such as named entity recognition (NER) and part-of-speech (POS) tagging to enrich feature sets.
-Scalability Improvements: Optimize the system for handling larger datasets and integrating with cloud-based storage and computing resources.
+- **Deep Learning Models:** Incorporate models like BERT for improved text understanding and classification.
+- **Real-Time Processing:** Develop a web application interface for real-time resume processing and ranking.
+- **Feedback Loop:** Implement mechanisms to refine rankings based on recruiter feedback and preferences.
+- **Enhanced Feature Engineering:** Explore additional NLP techniques such as named entity recognition (NER) and part-of-speech (POS) tagging to enrich feature sets.
+- **Scalability Improvements:** Optimize the system for handling larger datasets and integrating with cloud-based storage and computing resources.
 
