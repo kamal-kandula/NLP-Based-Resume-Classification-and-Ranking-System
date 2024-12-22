@@ -70,19 +70,13 @@ The system is divided into two main components:
 - **Git** installed for version control.
 - **pip** package manager.
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/NLP-Resume-Classification-Ranking.git
-cd NLP-Resume-Classification-Ranking
-
 ## Usage
 
-1. Data Preparation
+### 1. Data Preparation
 Resumes: Place all resume files (PDF and DOCX) in the data/resumes/ directory.
 Job Descriptions: Place all job description text files in the data/job_descriptions/ directory.
 
-2. Preprocess Data
+### 2. Preprocess Data
 Execute the preprocessing script to clean the data and extract features.
 python src/preprocessing.py
 
@@ -92,7 +86,7 @@ Clean and normalize the text data.
 Extract TF-IDF features.
 Save the preprocessed data and vectorizers.
 
-3. Train Classification Models
+### 3. Train Classification Models
 Train the classification models and evaluate their performance.
 python src/classification.py
 
@@ -102,7 +96,7 @@ Train Naive Bayes, Random Forest, and Gradient Boosting classifiers.
 Evaluate models using accuracy, precision, recall, and F1-score.
 Save the best-performing model (Random Forest).
 
-4. Rank Resumes
+### 4. Rank Resumes
 Rank resumes based on their similarity to job descriptions.
 python src/ranking.py
 
@@ -112,14 +106,14 @@ Compute cosine similarity between resume and job vectors.
 Rank resumes within each job category.
 Save the ranking results to results/ranking_scores.csv.
 
-5. View Results
+### 5. View Results
 Classification Reports: Located in the results/ directory as .txt files.
 Ranking Scores: Located in results/ranking_scores.csv.
 
 README.md: Project documentation.
 requirements.txt: List of Python dependencies.
 
-Future Work
+## Future Work
 Deep Learning Models: Incorporate models like BERT for improved text understanding and classification.
 Real-Time Processing: Develop a web application interface for real-time resume processing and ranking.
 Feedback Loop: Implement mechanisms to refine rankings based on recruiter feedback and preferences.
