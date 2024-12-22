@@ -7,3 +7,4 @@ nltk==3.6.2
 pdfminer.six==20201018
 python-docx==0.8.11
 joblib==1.0.1
+Faker==13.3.4
