@@ -73,45 +73,45 @@ The system is divided into two main components:
 ## Usage
 
 ### 1. Data Preparation
-Resumes: Place all resume files (PDF and DOCX) in the data/resumes/ directory.
-Job Descriptions: Place all job description text files in the data/job_descriptions/ directory.
+**Resumes:** Place all resume files (PDF and DOCX) in the data/resumes/ directory.
+**Job Descriptions:** Place all job description text files in the data/job_descriptions/ directory.
 
 ### 2. Preprocess Data
 Execute the preprocessing script to clean the data and extract features.
 python src/preprocessing.py
 
-This script will:
-Parse resumes and job descriptions.
-Clean and normalize the text data.
-Extract TF-IDF features.
-Save the preprocessed data and vectorizers.
+**This script will:**
+- Parse resumes and job descriptions.
+- Clean and normalize the text data.
+- Extract TF-IDF features.
+- Save the preprocessed data and vectorizers.
 
 ### 3. Train Classification Models
 Train the classification models and evaluate their performance.
 python src/classification.py
 
-This script will:
-Load preprocessed resume data.
-Train Naive Bayes, Random Forest, and Gradient Boosting classifiers.
-Evaluate models using accuracy, precision, recall, and F1-score.
-Save the best-performing model (Random Forest).
+**This script will:**
+- Load preprocessed resume data.
+- Train Naive Bayes, Random Forest, and Gradient Boosting classifiers.
+- Evaluate models using accuracy, precision, recall, and F1-score.
+- Save the best-performing model (Random Forest).
 
 ### 4. Rank Resumes
 Rank resumes based on their similarity to job descriptions.
 python src/ranking.py
 
-This script will:
-Load preprocessed resumes and job descriptions.
-Compute cosine similarity between resume and job vectors.
-Rank resumes within each job category.
-Save the ranking results to results/ranking_scores.csv.
+**This script will:**
+- Load preprocessed resumes and job descriptions.
+- Compute cosine similarity between resume and job vectors.
+- Rank resumes within each job category.
+- Save the ranking results to results/ranking_scores.csv.
 
 ### 5. View Results
-Classification Reports: Located in the results/ directory as .txt files.
-Ranking Scores: Located in results/ranking_scores.csv.
+**Classification Reports:** Located in the results/ directory as .txt files.
+**Ranking Scores:** Located in results/ranking_scores.csv.
 
-** README.md:** Project documentation.
-requirements.txt: List of Python dependencies.
+**README.md:** Project documentation.
+**requirements.txt:** List of Python dependencies.
 
 ---
 
