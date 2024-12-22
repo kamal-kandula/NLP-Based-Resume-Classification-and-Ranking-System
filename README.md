@@ -113,6 +113,8 @@ Ranking Scores: Located in results/ranking_scores.csv.
 README.md: Project documentation.
 requirements.txt: List of Python dependencies.
 
+---
+
 ## Future Work
 Deep Learning Models: Incorporate models like BERT for improved text understanding and classification.
 Real-Time Processing: Develop a web application interface for real-time resume processing and ranking.
