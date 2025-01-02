@@ -47,7 +47,8 @@ The dataset comprises **5,000 resumes** collected from diverse sources, each cor
 ### Data Collection
 
 - **Sources:** Public repositories, job boards, and synthetic data generation.
-- **Formats:** PDF, DOCX, and plain text files. **Job Descriptions:** Text files representing job requirements.
+- **Formats:** PDF, DOCX, and plain text files.
+- **Job Descriptions:** Text files representing job requirements.
 - **Categories:** 20 job roles ensuring diversity and relevance to real-world applications.
 
 ---
@@ -70,11 +71,11 @@ The system is divided into two main components:
 - **pip** package manager.
 
 ### Steps:
-1. Clone the repository:
+1. **Clone the repository:**
 git clone https://github.com/kamal-kandula/NLP-Based-Resume-Classification-and-Ranking-System.git
 cd NLP-Based-Resume-Classification-and-Ranking-System
 
-2. Install dependencies:
+2. **Install dependencies:**
 pip install -r requirements.txt
 
 ## Usage
