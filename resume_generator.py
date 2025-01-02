@@ -39,7 +39,7 @@ def generate_resumes(num_resumes=100):
     return pd.DataFrame(resumes)
 
 # Generate synthetic resumes
-num_resumes = 2208  # Adjust this number to your requirement
+num_resumes = 5000  # Adjust this number to your requirement
 resume_data = generate_resumes(num_resumes)
 
 # Save to CSV
