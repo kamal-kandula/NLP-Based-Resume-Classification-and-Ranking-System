@@ -71,8 +71,8 @@ The system is divided into two main components:
 
 ### Steps:
 1. Clone the repository:
-git clone https://github.com/your-username/NLP-Based-Resume-Classification-and-Ranking.git
-cd NLP-Based-Resume-Classification-and-Ranking
+git clone https://github.com/kamal-kandula/NLP-Based-Resume-Classification-and-Ranking-System.git
+cd NLP-Based-Resume-Classification-and-Ranking-System
 
 2. Install dependencies:
 pip install -r requirements.txt
