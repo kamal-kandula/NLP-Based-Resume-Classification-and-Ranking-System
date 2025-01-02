@@ -1,0 +1,10 @@
+# requirements.txt
+
+streamlit
+scikit-learn
+nltk
+joblib
+pandas
+beautifulsoup4
+sentence-transformers
+xgboost
