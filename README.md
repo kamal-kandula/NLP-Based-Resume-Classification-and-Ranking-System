@@ -115,8 +115,7 @@ python src/ranking.py
 - **Classification Reports:** Stored in the results/ directory.
 - **Ranking Scores:** Available in results/ranking_scores.csv.
 
-- **README.md:** Project documentation.
-- **requirements.txt:** List of Python dependencies.
+- **README.md:** Project documentation; **requirements.txt:** List of Python dependencies.
 
 ---
 
